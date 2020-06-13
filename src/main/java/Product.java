@@ -6,7 +6,10 @@ public class Product {
 
 
     public boolean validatePrice(double p) {
-
+        if (p == 0.0)
+            return false;
+        else
+            return true;
     }
 
     public int getId() {
@@ -30,6 +33,12 @@ public class Product {
     }
 
     public void setPrice(double price) {
-        this.price = price;
+        if (validatePrice(price))
+            this.price = price;
+        else
+            System.out.println("invalid price");
     }
 }
+
+
+

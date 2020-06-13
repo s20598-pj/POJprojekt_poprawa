@@ -15,6 +15,7 @@ public class Shop {
     }
 
     public void setName(String name) {
+        validateName(name);
         this.name = name;
     }
 
