@@ -19,26 +19,26 @@ public class Shop {
         this.name = name;
     }
 
-    public String[] getList_avalibe_product() {
+    public Product[] getList_avalibe_product() {
         return list_avalibe_product;
     }
 
-    public void setList_avalibe_product(String[] list_avalibe_product) {
+    public void setList_avalibe_product(Product[] list_avalibe_product) {
         this.list_avalibe_product = list_avalibe_product;
     }
 
-    public String[] getSell_list() {
+    public Product[] getSell_list() {
         return sell_list;
     }
 
-    public void setSell_list(String[] sell_list) {
+    public void setSell_list(Product[] sell_list) {
         this.sell_list = sell_list;
     }
 
         private int id;
         private String name;
-        private String[] list_avalibe_product;
-        private String[] sell_list;
+        Product list_avalibe_product[];
+        Product sell_list[];
 
 
 
