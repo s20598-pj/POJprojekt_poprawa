@@ -35,7 +35,7 @@ public class Shop {
         this.sell_list = sell_list;
     }
 
-    private int id;
+        private int id;
         private String name;
         private String[] list_avalibe_product;
         private String[] sell_list;
