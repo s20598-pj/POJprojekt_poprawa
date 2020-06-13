@@ -40,12 +40,6 @@ public class Shop {
         private String[] list_avalibe_product;
         private String[] sell_list;
 
-    public Shop(int id, String name, String[] list_avalibe_product, String[] sell_list) {
-        this.id = id;
-        this.name = name;
-        this.list_avalibe_product = list_avalibe_product;
-        this.sell_list = sell_list;
-    }
 
 
     public boolean validateName(String n) {
